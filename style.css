@@ -73,7 +73,9 @@ Journey section
     margin-left: 200px;
 }
 
-/* all brands */
+/*------------
+all brands
+--------------*/
 .brands {
     display: flex;
     align-items: center;
@@ -82,4 +84,40 @@ Journey section
 
 .brands img {
     margin-right: 64px;
+}
+
+
+/* Collection css */
+.collection {
+    margin-left: 197px;
+    margin-right: 197px;
+}
+
+#collection-header {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.collection-items {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 30px;
+}
+
+.collection .one-collection h2 {
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.star i {
+    width: 11.07px;
+    height: 10.32px;
+    color: #FB8200;
+    margin-right: 5px;
 }
