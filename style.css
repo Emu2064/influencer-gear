@@ -1,0 +1,85 @@
+/* Font family import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header,
+section {
+    margin-top: 87px;
+}
+
+
+/*-------------
+Nav items css 
+---------------*/
+.container nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.highlight-name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.nav-items ul {
+    display: flex;
+}
+
+.nav-items ul li {
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+    margin-right: 50px;
+    font-size: 16px;
+}
+
+
+/*----------
+Journey section
+------------*/
+.journey {
+    display: flex;
+}
+
+.journey-info {
+    margin-right: 100px;
+    width: 60%;
+}
+
+.journey-info h1 {
+    font-size: 52px;
+}
+
+.journey-info button {
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 41px;
+}
+
+.journey-camera {
+    width: 40%;
+    margin-left: 200px;
+}
+
+/* all brands */
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brands img {
+    margin-right: 64px;
+}
