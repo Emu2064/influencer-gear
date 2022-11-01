@@ -5,6 +5,10 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+
+}
+
+.main {
     margin: 0px 150px;
     display: flex;
     justify-content: center;
@@ -60,12 +64,18 @@ Journey section
     font-size: 52px;
 }
 
+.journey-info p {
+    color: #3A3A3A;
+    font-weight: 600;
+}
+
 .journey-info button {
     padding: 10px 24px;
     background-color: #E02C6D;
     font-weight: 700;
     font-size: 16px;
     border-radius: 41px;
+    margin-top: 16px;
 }
 
 .journey-camera {
@@ -110,6 +120,11 @@ all brands
     font-size: 28px;
 }
 
+.one-collection h2,
+.price {
+    margin: 0px;
+}
+
 .price {
     font-size: 24px;
     font-weight: 500;
@@ -120,4 +135,72 @@ all brands
     height: 10.32px;
     color: #FB8200;
     margin-right: 5px;
+}
+
+.collection h3 {
+    text-align: right;
+    margin-top: 50px;
+    color: rgba(224, 44, 109, 0.87);
+}
+
+/*-------------------
+ featured products 
+---------------------*/
+.feature-product {
+    display: flex;
+    margin: 100px 20px;
+    align-items: center;
+}
+
+.feature-product-info,
+.featured-image {
+    margin-left: 150px;
+}
+
+.feature-product-info h2 {
+    font-weight: 700;
+    font-size: 38px;
+}
+
+.feature-product-info button {
+    border-radius: 0px;
+    margin-top: 16px;
+}
+
+/* footer section */
+footer {
+    margin: 0px;
+    margin-top: 100px;
+    height: 239px;
+    background-color: #0A0826;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copywrite-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.copywrite-info h2,
+p {
+    margin: 0px;
+}
+
+.contact {
+    margin-top: 17px;
+    margin-bottom: 50px;
+}
+
+.contact i {
+    margin-right: 30px;
+    height: 12.800000190734863px;
+    width: 15.489017486572266px;
+    border-radius: 0px;
+
 }
